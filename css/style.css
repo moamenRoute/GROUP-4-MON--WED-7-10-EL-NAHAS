@@ -1,0 +1,487 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* start home with navbar style */
+
+.navbar {
+    /* The image used */
+    background-image: url("../images/images/drew-coffman-1872.jpg");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* Needed to position the navbar */
+    position: relative;
+    height: 100vh;
+}
+
+.head_navbar {
+    /* position: fixed; */
+}
+
+
+/* The navbar */
+
+.Top_navbar {
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+
+
+/* Navbar links */
+
+.Top_navbar a {
+    /* float: left; */
+    /* display: inline-block; */
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+
+.Top_navbar a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.logo {
+    margin-right: 45%;
+    margin-left: 5%;
+}
+
+.navlogo {
+    width: 50%;
+    float: left;
+}
+
+.navanchors {
+    /* display: inline-block; */
+    width: 50%;
+    float: right;
+}
+
+.navanchors ul {
+    float: right;
+}
+
+.navanchors li {
+    list-style: none;
+    float: left;
+}
+
+.navanchors a {
+    /* vertical-align: middle; */
+    float: left;
+}
+
+.logo_bakery {
+    /* display: inline-block; */
+    width: 200px;
+}
+
+.bodyhome {
+    padding-top: 50px;
+}
+
+.colorTexts {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.learnmore {
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0px;
+    opacity: inherit;
+    color: whitesmoke;
+    background-color: rgb(94, 71, 14);
+    font-size: large;
+    font-weight: 100;
+    border-radius: 5px;
+}
+
+.contactus {
+    color: whitesmoke;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid whitesmoke;
+    background: none;
+    font-size: large;
+    font-weight: 100;
+    border-radius: 5px;
+}
+
+.buttons {
+    text-align: center;
+    float: inline;
+}
+
+.downbotton {
+    color: whitesmoke;
+    background: none;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    /* border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px; */
+    width: 40px;
+    height: 70px;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+/* end home with navbar */
+
+
+/* start who_we_Are section style &some css Rules we use in location section */
+
+.who_We_Are {
+    /* display: inline-block; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.innerwho_we_are {
+    width: 90%;
+    margin: auto;
+}
+
+.leftpart_image {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+
+.img {
+    width: 100%;
+    /* margin-left: 50px; */
+    /* margin-top: 50px; */
+    /* float: left; */
+    /* display: inline-block; */
+}
+
+.icons {
+    width: 40px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    /* display: inline-block; */
+    box-sizing: border-box;
+}
+
+.paragraph {
+    font-size: large;
+    font-weight: 200;
+    /* margin-right: 150px; */
+    padding-left: 30px;
+    /* margin-top: 85px; */
+    text-align: left;
+    display: inline-block;
+    width: 49%;
+    box-sizing: border-box;
+}
+
+.p_group1 {
+    /* display: inline-block; */
+}
+
+.p_group {
+    color: gray;
+    padding-top: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+
+/* end Who_We_Are section style &some css Rules we use in location section */
+
+
+/* start location section style */
+
+.innerlocation {
+    width: 90%;
+    margin: auto;
+}
+
+.right_image_Location {
+    width: 49%;
+    /* margin-left: 755px; */
+    /* margin-top: 45px; */
+    /* text-alig    n: center; */
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.location_image {
+    width: 100%;
+}
+
+.paragraph1 {
+    font-size: large;
+    font-weight: 200;
+    text-align: left;
+    /* margin-left: 50px; */
+    /* margin-top: 100px; */
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+.location_paragraph {
+    box-sizing: border-box;
+    padding-bottom: 25%;
+}
+
+.location {
+    /* margin-top: 20px; */
+    background-color: rgb(248, 246, 246);
+}
+
+
+/* end location section style */
+
+
+/* start section baking style */
+
+.all_baking {
+    padding-bottom: 50px;
+}
+
+.baking {
+    font-size: large;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.baking1 {
+    /* display: inline-block; */
+    /* float: left; */
+    margin-top: 50px;
+    /* margin-left: 40px; */
+    margin-bottom: 50px;
+}
+
+.innerbacking {
+    width: 90%;
+    margin: auto;
+}
+
+.superior {
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.superior img {
+    width: 100%;
+}
+
+.bagels {
+    width: 33.333%;
+    /* padding-left: 50px; */
+    /* margin-top: -385px; */
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.bagels img {
+    width: 100%;
+}
+
+.cookies {
+    width: 33.333%;
+    padding: 25px;
+    /* margin-top: -385px; */
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.cookies img {
+    width: 100%;
+}
+
+
+/* end section baking style */
+
+
+/* clr all floating elements */
+
+.clr {
+    clear: both;
+}
+
+
+/* start contact section */
+
+.contact {
+    margin-top: 20px;
+    background-color: rgb(248, 246, 246);
+    padding-bottom: 20px;
+}
+
+.innercontact {
+    width: 90%;
+    margin: auto;
+}
+
+.p_group_1 {
+    color: #d9d2d2;
+    /* padding-top: 20px; */
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.contactleft {
+    width: 50%;
+    float: left;
+    /* margin-left: 50px; */
+    box-sizing: border-box;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.iconscontact {
+    width: 40px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: rgb(122, 88, 43);
+}
+
+.contactreight {
+    width: 49%;
+    float: right;
+    box-sizing: border-box;
+    /* text-align: center; */
+    padding-top: 70px;
+}
+
+.contactmap {
+    width: 100%;
+}
+
+
+/* end contact section style */
+
+
+/* start about section style */
+
+.about {
+    background-color: rgb(87, 86, 86);
+    padding-bottom: 50px;
+}
+
+.innerabout {
+    width: 90%;
+    margin: auto;
+}
+
+.firstabout {
+    float: left;
+    width: 25%;
+    padding: 25px;
+    /* margin-left: 50px; */
+    box-sizing: border-box;
+}
+
+.fourdiv {
+    background-image: url('../images/images/contact-details-map.png');
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-position: center;
+}
+
+.firstparagraph {
+    width: 100%;
+}
+
+.arrow {
+    display: inline-block;
+    width: 10%;
+}
+
+.p_group_about {
+    color: #d9d2d2;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: super;
+}
+
+hr {
+    color: grey;
+}
+
+.h2Whit {
+    color: whitesmoke;
+}
+
+
+/* end about section style */
+
+
+/* start footer section style */
+
+.footer {
+    text-align: center;
+    background-color: rgb(36, 36, 36);
+}
+
+.footerimage {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.iconsbelow {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.socialmedia {
+    width: 50px;
+    border-radius: 50px;
+    background-color: #4e4a4a;
+    /* padding-bottom: 20px; */
+    margin-bottom: 50px;
+}
+
+.hover1:hover {
+    background-color: blue;
+}
+
+.hover2:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.hover3:hover {
+    background-color: rgb(0, 255, 255);
+}
+
+.hover4:hover {
+    background-color: rgb(0, 192, 240);
+}
+
+
+/* end footer section style */
